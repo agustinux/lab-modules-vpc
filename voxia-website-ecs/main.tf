@@ -1,8 +1,8 @@
 # Configure AWS provider
 
-provider "AWS" {
-  region  = var.region
-  profile = "terraform-user"
+provider "aws" {
+  region = var.region
+  // profile = "AgusTinux"
 }
 
 # Create VPC

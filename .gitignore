@@ -1,1 +1,5 @@
-voxia-website-ecs/backend.tf
+voxia-website-ecs/.terraform/*
+voxia-website-ecs/.terraform*
+modules/s3/.terraform/*
+modules/s3/.terraform*
+modules/s3/.terraform.tfstate
